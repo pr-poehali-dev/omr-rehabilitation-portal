@@ -82,9 +82,9 @@ const Index = () => {
 
   // Данные системы
   const [users, setUsers] = useState<Record<string, User>>({
-    "admin@omr.ru": {
+    "vurado888@gmail.com": {
       id: "OMR-SUPER",
-      email: "admin@omr.ru",
+      email: "vurado888@gmail.com",
       name: "Главный Администратор",
       rank: "Генерал-лейтенант",
       department: "Высшее командование",
@@ -158,7 +158,7 @@ const Index = () => {
   });
 
   const [userPasswords] = useState<Record<string, string>>({
-    "admin@omr.ru": "OMRJVH1338",
+    "vurado888@gmail.com": "OMRJVH1338",
     "security@omr.ru": "SEC2024",
     "agent@omr.ru": "AGENT123",
   });
@@ -167,8 +167,8 @@ const Index = () => {
     {
       id: "command",
       name: "Высшее командование",
-      head: "admin@omr.ru",
-      members: ["admin@omr.ru"],
+      head: "vurado888@gmail.com",
+      members: ["vurado888@gmail.com"],
     },
     {
       id: "security",
@@ -189,7 +189,7 @@ const Index = () => {
       completed: false,
       points: 15,
       department: "security",
-      createdBy: "admin@omr.ru",
+      createdBy: "vurado888@gmail.com",
     },
     {
       id: 2,
